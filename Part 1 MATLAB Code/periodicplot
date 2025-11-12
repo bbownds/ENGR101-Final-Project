@@ -1,0 +1,9 @@
+load('HW9.mat');  % loads variable x
+n = length(x);
+centered_x = x - mean(x);  % optional: center the data itself
+indices = (1:n) - n/2;     % centers x-axis around 0
+plot(indices, x, 'o-');
+xlabel('Centered Index');
+ylabel('x values');
+title('Graph of HW9 Data (0 Centered)');
+grid on;
