@@ -1,6 +1,6 @@
-Plotting HW9.mat File
-Brock B, bbownds@hmc.edu
-Josue M, jmeraz@hmc.edu
+% Plotting HW9.mat File
+% Brock B, bbownds@hmc.edu
+% Josue M, jmeraz@hmc.edu
 
 load('HW9.mat');  % loads variable x
 n = length(x);
