@@ -38,7 +38,7 @@ yline(mean_value, '--r', sprintf('Mean = %.3f', mean_value), ...
     'LabelHorizontalAlignment', 'left', 'Interpreter', 'latex');
 hold off;
 ```
-<img width="1120" height="674" alt="figure_0" src="https://github.com/user-attachments/assets/a62682c5-a263-4f61-8991-5c3b0b1ecdc8" />
+<img width="560" height="337" alt="figure_0" src="https://github.com/user-attachments/assets/a62682c5-a263-4f61-8991-5c3b0b1ecdc8" />
 
 
  **By inspection we can conclude the that the amplitude is A = 5, and through code calculation the mean value is** ${\mathit{\mathbf{a}}}_0$ = **3.238.**
