@@ -20,10 +20,11 @@ N0 = T0/.01;
 %Duty cycle
 d = N1/N0;
 
-%% This is our K's that we want to check for
 k = [1, 2, 3, 4];
 
-%The DTFT coefficients 
-coefficient = abs( (A.*sin(k.*pi.*d)) ./ (N0.*sin( (k.*pi)./(N0) )));
+% The DTFT coefficients 
+coefficient = abs((A.*sin(k.*pi.*d)) ./ (N0.*sin((k.*pi)./(N0))));
 
-fprintf('ak = %.4f ',coefficient)
+for i = 1:length(k)
+    fprintf('ak_%d = %.3f ', k(i), coefficient(i));
+end
